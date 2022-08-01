@@ -33,8 +33,10 @@ Switch to the repo folder
 
     * php artisan schedule:work
 
-#### Notes 
+#### Notes
 
+* to use package at local machine check the read.me of https://github.com/Coder0010/laravel-ads/blob/master/README.md
+then run COMPOSER=composer-dev.json composer install
 * make sure that tables are exists [ jobs, failed_jobs, notifications ]
 * for using laravel-ads package at new laravel project make sure to add this relation to user.php model
     /**
